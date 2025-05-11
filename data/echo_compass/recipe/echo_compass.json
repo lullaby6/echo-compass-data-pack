@@ -2,16 +2,16 @@
     "type": "minecraft:crafting_shaped",
     "category": "misc",
     "pattern": [
-        "#N#",
-        "ERE",
-        "#L#"
+        "nNn",
+        "PRP",
+        "nHn"
     ],
     "key": {
-        "#": "minecraft:popped_chorus_fruit",
+        "n": "minecraft:netherite_ingot",
         "N": "minecraft:nether_star",
-        "E": "minecraft:ender_eye",
+        "P": "minecraft:popped_chorus_fruit",
         "R": "minecraft:recovery_compass",
-        "L": "minecraft:heavy_core"
+        "H": "minecraft:heavy_core"
     },
     "result": {
         "id": "minecraft:compass",
