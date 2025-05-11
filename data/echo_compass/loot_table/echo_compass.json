@@ -21,17 +21,8 @@
                 },
                 "minecraft:max_stack_size": 1,
                 "minecraft:enchantment_glint_override": true,
-                "minecraft:custom_name": {
-                  text: "Echo Compass",
-                  italic: false
-                },
-                "minecraft:lore": [
-                  {
-                    text: "Link to a lodestone and use it to teleport",
-                    italic: false,
-                    color: "gray"
-                  }
-                ]
+                "minecraft:custom_name": "{\"text\": \"Echo Compass\",\"italic\": false}",
+                "minecraft:lore": ["{\"text\": \"Link to a lodestone and use it to teleport\", \"italic\": false, \"color\": \"gray\"}"]
               }
             }
           ]

@@ -8,7 +8,7 @@ function echo_compass:echo_compass/use/teleport with storage echo_compass:main t
 data remove storage echo_compass:main teleport
 
 
-summon armor_stand ~ ~ ~ {Small:1b,Marker:1b,Invisible:1b,NoGravity:1b,Tags:["echo_compass.armor_stand"]}
+summon armor_stand ~ ~ ~ {Tags:["echo_compass.armor_stand"],NoGravity:1b,Silent:1b,Invulnerable:1b,HasVisualFire:0b,Small:1b,Marker:1b,Invisible:1b,PersistenceRequired:1b,DisabledSlots:4144959}
 
 item replace entity @n[tag=echo_compass.armor_stand] weapon.mainhand from entity @s weapon.mainhand
 
