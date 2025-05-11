@@ -1,0 +1,39 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "pattern": [
+        "#N#",
+        "ERE",
+        "#L#"
+    ],
+    "key": {
+        "#": "minecraft:popped_chorus_fruit",
+        "N": "minecraft:nether_star",
+        "E": "minecraft:ender_eye",
+        "R": "minecraft:recovery_compass",
+        "L": "minecraft:lodestone"
+    },
+    "result": {
+        "id": "minecraft:compass",
+        "count": 1,
+        "components": {
+          "minecraft:rarity": "epic",
+          "minecraft:custom_data": {
+            "echo_compass": true
+          },
+          "minecraft:max_stack_size": 1,
+          "minecraft:enchantment_glint_override": true,
+          "minecraft:custom_name": {
+            text: "Echo Compass",
+            italic: false
+          },
+          "minecraft:lore": [
+            {
+              text: "Link to a lodestone and use it to teleport",
+              italic: false,
+              color: "gray"
+            }
+          ]
+        }
+    }
+}
