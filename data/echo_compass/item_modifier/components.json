@@ -9,7 +9,7 @@
         "has_consume_particles": false
       },
       "minecraft:use_cooldown": {
-        "seconds": 60,
+        "seconds": 1,
         "cooldown_group": "echo_compass:cooldown"
       }
     }
