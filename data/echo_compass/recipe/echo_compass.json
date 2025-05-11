@@ -11,7 +11,7 @@
         "N": "minecraft:nether_star",
         "E": "minecraft:ender_eye",
         "R": "minecraft:recovery_compass",
-        "L": "minecraft:lodestone"
+        "L": "minecraft:heavy_core"
     },
     "result": {
         "id": "minecraft:compass",
