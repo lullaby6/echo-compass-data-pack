@@ -10,4 +10,5 @@ particle minecraft:sculk_soul ~ ~ ~ .5 1 .5 0.1 50 force @a
 effect give @s minecraft:blindness 1 0 true
 effect give @s minecraft:glowing 3 0 true
 effect give @s minecraft:slow_falling 1 0 true
-effect give @a minecraft:slowness 1 9 true
+effect give @s minecraft:slowness 1 9 true
+effect give @s minecraft:nausea 6 0 true

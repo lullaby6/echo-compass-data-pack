@@ -3,14 +3,10 @@
     "entity": "this",
     "components": {
       "minecraft:consumable": {
-        "consume_seconds": 3,
-        "animation": "spear",
+        "consume_seconds": 999999,
+        "animation": "none",
         "sound": "minecraft:entity.warden.sonic_charge",
         "has_consume_particles": false
-      },
-      "minecraft:use_cooldown": {
-        "seconds": 60,
-        "cooldown_group": "echo_compass:cooldown"
       }
     }
 }

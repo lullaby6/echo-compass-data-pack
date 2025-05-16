@@ -1,7 +1,7 @@
 {
   "criteria": {
     "requirement": {
-      "trigger": "minecraft:consume_item",
+      "trigger": "minecraft:using_item",
       "conditions": {
         "item": {
           "predicates": {
@@ -14,6 +14,6 @@
     }
   },
   "rewards": {
-    "function": "echo_compass:echo_compass/consume"
+    "function": "echo_compass:echo_compass/use"
   }
 }

@@ -1,2 +1,0 @@
-execute if score @s echo_compass.hand matches 1 unless items entity @s weapon.mainhand * run return run function echo_compass:echo_compass/replace/prepare {"hand":"main"}
-execute if score @s echo_compass.hand matches 2 unless items entity @s weapon.offhand * run return run function echo_compass:echo_compass/replace/prepare {"hand":"off"}

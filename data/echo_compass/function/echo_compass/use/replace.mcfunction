@@ -1,1 +1,0 @@
-$item replace entity @n[type=minecraft:armor_stand,tag=echo_compass.armor_stand.replace.$(id),scores={echo_compass.id=$(id)}] weapon.mainhand from entity @s weapon.$(hand)hand

@@ -10,13 +10,8 @@
               "minecraft:recovery_compass",
               "minecraft:ender_eye",
               "minecraft:ender_pearl",
-              "minecraft:chorus_fruit",
-              "minecraft:popped_chorus_fruit",
-              "minecraft:netherite_ingot",
-              "minecraft:netherite_scrap",
-              "minecraft:nether_star",
-              "minecraft:lodestone",
-              "minecraft:heavy_core"
+              "minecraft:echo_shard",
+              "minecraft:lodestone"
             ]
           }
         ]
