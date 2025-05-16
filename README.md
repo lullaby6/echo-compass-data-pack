@@ -10,6 +10,7 @@
 [![Stars](https://img.shields.io/github/stars/lullaby6/echo-compass-data-pack?logo=github&color=yellow)](https://github.com/lullaby6/echo-compass-data-pack/stargazers)
 
 Craft a new item called Echo Compass and use it with a lodestone to link it and then teleport!
+You need to have ender pearls in your inventory and using the Echo Compass will consume an ender pearl.
 
 The difference with the Ender Compass is that the Echo Compass is not consumed in use.
 
