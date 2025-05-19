@@ -1,4 +1,4 @@
 advancement revoke @s only echo_compass:item_used_on_block
 
-execute as @a if predicate echo_compass:mainhand if data entity @s SelectedItem.components."minecraft:lodestone_tracker" unless data entity @s SelectedItem.components."minecraft:consumable" at @s run return run function echo_compass:link/hand {"hand":"main","data":"SelectedItem"}
-execute as @a if predicate echo_compass:offhand if data entity @s equipment.offhand.components."minecraft:lodestone_tracker" unless data entity @s equipment.offhand.components."minecraft:consumable" at @s run return run function echo_compass:link/hand {"hand":"off","data":"equipment.offhand"}
+execute if predicate echo_compass:mainhand run return run function echo_compass:link/check {"weapon":"mainhand","data":"SelectedItem"}
+execute if predicate echo_compass:offhand run return run function echo_compass:link/check {"weapon":"offhand","data":"equipment.offhand"}
