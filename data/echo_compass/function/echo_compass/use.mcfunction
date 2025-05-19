@@ -5,5 +5,5 @@ execute unless entity @s[nbt={Inventory:[{id:"minecraft:ender_pearl"}]}] run ret
 
 clear @s minecraft:ender_pearl[!minecraft:custom_data] 1
 
-execute if predicate echo_compass:mainhand run return run function echo_compass:echo_compass/use/mainhand
-execute if predicate echo_compass:offhand run return run function echo_compass:echo_compass/use/offhand
+execute if predicate echo_compass:mainhand run return run function echo_compass:echo_compass/use/hand {"weapon":"mainhand","data":"SelectedItem"}
+execute if predicate echo_compass:offhand run return run function echo_compass:echo_compass/use/hand {"weapon":"offhand","data":"equipment.offhand"}
